@@ -18,7 +18,9 @@ class Database:
 
         Name text,
         
-        Department text
+        Department text,
+        
+        DOB text
 
         )
 
