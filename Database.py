@@ -8,6 +8,23 @@ class Database:
 
         self.cur = self.con.cursor()
 
+        sql = """
+
+        CREATE TABLE IF NOT EXISTS employee
+
+        (
+
+        EMP ID Integer Primary Key,
+
+        Name text
+
+        )
+
+
+        """
+
+        self.cur.execute(sql)
+
         self.con.commit()
 
 
