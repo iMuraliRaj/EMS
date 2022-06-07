@@ -16,7 +16,9 @@ class Database:
 
         EMP ID Integer Primary Key,
 
-        Name text
+        Name text,
+        
+        Department text
 
         )
 
