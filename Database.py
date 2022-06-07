@@ -20,7 +20,9 @@ class Database:
         
         Department text,
         
-        DOB text
+        DOB text,
+        
+        Gender text
 
         )
 
