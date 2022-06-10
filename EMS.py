@@ -6,7 +6,7 @@ window=tk.Tk()
 
 window.geometry("500x500+430+50")
 
-window.title("EMS")
+window.title("CMS")
 
 window.config(bg="blue")
 
