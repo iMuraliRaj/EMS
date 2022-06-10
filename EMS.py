@@ -8,6 +8,6 @@ window.geometry("%dx%d" % (200, 200))
 
 window.title("EMS")
 
-window.config(bg="blue")
+window.config(bg="blue") 
 
 window.mainloop()
